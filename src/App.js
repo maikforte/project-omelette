@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button, Label } from './atoms/Atoms';
 
 function App() {
 	return (
@@ -21,6 +22,8 @@ function App() {
 				>
 					Learn React
 				</a>
+				<Button>asd</Button>
+				<Label>ma label</Label>
 			</header>
 		</div>
 	);
